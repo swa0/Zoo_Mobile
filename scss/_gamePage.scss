@@ -1,0 +1,182 @@
+.gameWrap {
+    width: 100%;
+    height: auto;
+
+    ul {
+        width: 100%;
+        height: auto;
+
+        ol {
+            display: none;
+            width: 100%;
+            height: auto;
+
+            &.display {
+                display: block;
+            }
+
+            li {
+                width: 100%;
+                height: auto;
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+
+                .textBox {
+                    width: 100%;
+                    height: auto;
+                    padding: 0 4vw;
+                    margin: 3vh 0 24vh;
+
+                    p {
+                        color: $mainColor_1;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        line-height: 1.2rem;
+                        margin-bottom: 3vw;
+                    }
+                }
+
+                .gridBox {
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 3vw;
+                    padding: 0 4vw;
+                    margin-bottom: 30vh;
+
+                    .imgBox {
+                        font-size: 0;
+                        position: relative;
+
+                        &::before {
+                            @include bgStyle_1;
+                            border: solid 2px $mainBorder_1;
+                            opacity: 0.6;
+                        }
+
+                        .slotImg {
+                            width: 100%;
+                            height: 12vh;
+                            background: #000000;
+                            object-fit: contain;
+                        }
+
+                        .like_ic {
+                            width: 7vw;
+                            height: 7vw;
+                            position: absolute;
+                            top: -4px;
+                            left: 1vw;
+    
+                            &.active {
+                                background-position-y: 100%;
+                            }
+                        }
+    
+                        .hot_ic {
+                            width: 8vw;
+                            height: 8vw;
+                            position: absolute;
+                            top: -8px;
+                            left: 8vw;
+                        }
+                    }
+
+                    p {
+                        color: $mainColor_1;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 2vw;
+                    }
+                }
+
+                .searchBox {
+                    width: 96%;
+                    height: 55vw;
+                    margin: 3vh auto;
+
+                    .btnBox {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: space-between;
+                        transform: translateY(-40%);
+                        padding: 0 8vw;
+
+                        button {
+                            width: 25vw;
+                            height: 9vw;
+                            background-position-y: 100%;
+                            color: $mainColor_1;
+                            font-size: 0.85rem;
+                            font-weight: bold;
+                            text-shadow: 2px 2px 0 $textShadow_1;
+                            padding: 0 1vw 2vw 0;
+
+                            &.active {
+                                background-position-y: 0;
+                            }
+                        }
+                    }
+
+                    .subTitle {
+                        color: $mainColor_2;
+                        font-size: 0.75rem;
+                        font-weight: bold;
+                        line-height: 1rem;
+                        padding: 0 12vw;
+                    }
+
+                    form {
+                        width: 100%;
+                        height: auto;
+                        padding: 0 16vw;
+                        margin-top: 5vw;
+        
+                        label {
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                            margin-bottom: 2vw;
+                            position: relative;
+        
+                            &:nth-last-of-type(1) {
+                                margin-bottom: 0;
+                            }
+        
+                            input,
+                            select {
+                                width: 100%;
+                                height: auto;
+                                padding: 2.5vw 3vw;
+                                @include inputStyle_1;
+                            }
+                            
+                            .arrow_ic {
+                                width: 4vw;
+                                height: 4vw;
+                                position: absolute;
+                                top: 50%;
+                                right: 3vw;
+                                transform: translateY(-50%);
+                                z-index: 2;
+                            }
+                        }
+                    }
+                }
+
+                .empty {
+                    color: $mainColor_1;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    text-align: center;
+                    opacity: 0.5;
+                    padding: 24vh 0;
+                }
+            }
+        }
+    }
+}

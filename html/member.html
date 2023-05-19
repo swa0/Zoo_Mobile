@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/javascript.js"></script>
+    <link rel="shortcut icon" href="../images/NJLOGO_64x64.ico" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--logo-->
+        <a href="./innerIndex.html" class="logo">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <!--listBtn-->
+        <button class="listBtn display">
+            <i></i>
+            <i></i>
+            <i></i>
+        </button>
+        <!--selectBox-->
+        <div class="selectBox">
+            <!--lang-->
+            <label for="" class="lang">
+                <i class="lang_ic"></i>
+                <select name="" id="">
+                    <option value="">日本語</option>
+                    <option value="">繁體中文</option>
+                    <option value="">简体中文</option>
+                    <option value="">ENGLISH</option>
+                </select>
+            </label>
+            <!--money-->
+            <label for="" class="money">
+                <i class="money_ic"></i>
+                <select name="" id="">
+                    <option value="">USD</option>
+                    <option value="">NTD</option>
+                </select>
+            </label>
+        </div>
+    </header>
+    <main class="innerPage">
+        <div class="titleLine myPage"></div>
+        <div class="memberWrap">
+            <div class="lvBox">
+                <i class="level lion"></i>
+                <div class="textBox">
+                    <p class="name">
+                        ********
+                        <i class="check_ic"></i>
+                    </p>
+                    <p class="rank">
+                        <span>VIP RANK</span>
+                        *********
+                    </p>
+                    <div class="walletBox">
+                        <i class="wallet_ic"></i>
+                        <div>
+                            <p>**********</p>
+                            <i class="add_ic"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="otherLink">
+                <ul>
+                    <li>
+                        <a href="./kyc.html">
+                            <i class="other_ic kyc"></i>
+                        </a>
+                        <p>KYC認証</p>
+                    </li>
+                    <li>
+                        <a href="./vip.html">
+                            <i class="other_ic vip"></i>
+                        </a>
+                        <p>VIPクラブ</p>
+                    </li>
+                    <li>
+                        <a href="./bank.html">
+                            <i class="other_ic bank"></i>
+                        </a>
+                        <p>銀行口座設定</p>
+                    </li>
+                    <li>
+                        <a href="./history.html">
+                            <i class="other_ic record"></i>
+                        </a>
+                        <p>各種履歴</p>
+                    </li>
+                    <li>
+                        <a href="./fourGeneration.html">
+                            <i class="other_ic bonus"></i>
+                        </a>
+                        <p>各種ボーナス</p>
+                    </li>
+                    <li>
+                        <a href="./promotion.html">
+                            <i class="other_ic promotion"></i>
+                        </a>
+                        <p class="bottom">プロモーション申請</p>
+                    </li>
+                    <li>
+                        <a href="./maintain.html">
+                            <i class="other_ic fixed"></i>
+                        </a>
+                        <p class="bottom">定期メンテナンス時間</p>
+                    </li>
+                    <li>
+                        <a href="./mail.html">
+                            <i class="other_ic inbox"></i>
+                        </a>
+                        <p>インボックス</p>
+                    </li>
+                    <li>
+                        <a href="./affiliate.html">
+                            <i class="other_ic affiliate"></i>
+                        </a>
+                        <p>アフィリエイト</p>
+                    </li>
+                    <li>
+                        <a href="./faq_kyc.html">
+                            <i class="other_ic help"></i>
+                        </a>
+                        <p>ヘルプセンター</p>
+                    </li>
+                    <li>
+                        <a href="./about_aboutUs.html">
+                            <i class="other_ic about"></i>
+                        </a>
+                        <p>当社について</p>
+                    </li>
+                    <li>
+                        <a href="../index.html" class="logout">
+                            <i class="other_ic logout"></i>
+                        </a>
+                        <p>ログアウト</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg_wood long">
+                <p>アカウント</p>
+            </div>
+            <div class="accountBox">
+                <ul>
+                    <li>
+                        <p>
+                            <em>※</em>
+                            アカウント
+                        </p>
+                        <label for="">
+                            <input type="text" value="*********">
+                        </label>
+                    </li>
+                    <li>
+                        <p>
+                            <em>※</em>
+                            パスワード
+                        </p>
+                        <label for="">
+                            <input type="password" value="*********">
+                            <i class="edit_ic"></i>
+                        </label>
+                    </li>
+                </ul>
+                <div class="securityBox">
+                    <p>
+                        アカウントセキュリティレベル : 
+                        <span>**</span>
+                    </p>
+                </div>
+                <div class="statusBox">
+                    <p class="title">アカウントのセキュリティを確保するために、必要に応じて関連するセキュリティ情報を入力してください。</p>
+                    <div class="row">
+                        <p>
+                            <i class="status_ic basic"></i>
+                            基本情報を入力
+                        </p>
+                        <p>
+                            ---
+                            <i class="confirm_ic yse"></i>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <i class="status_ic phone"></i>
+                            携帯電話番号を連携
+                        </p>
+                        <p>
+                            ---
+                            <i class="confirm_ic yse"></i>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <i class="status_ic bank"></i>
+                            銀行口座追加
+                        </p>
+                        <p>
+                            ---
+                            <i class="confirm_ic yse"></i>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <i class="status_ic mail"></i>
+                            メールアドレスを入力
+                        </p>
+                        <p>
+                            ---
+                            <i class="confirm_ic no"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_wood long">
+                <p>個人情報</p>
+            </div>
+            <div class="inputBox">
+                <ul>
+                    <li>
+                        <p>
+                            <em>※</em>
+                            氏名
+                        </p>
+                        <label for="">
+                            <input type="text" value="********">
+                        </label>
+                    </li>
+                    <li>
+                        <p>
+                            <em>※</em>
+                            メールアドレス
+                        </p>
+                        <label for="">
+                            <input type="text" value="********">
+                        </label>
+                    </li>
+                    <li>
+                        <p>
+                            <em>※</em>
+                            生年月日
+                        </p>
+                        <label for="">
+                            <input type="text" value="********">
+                            <i class="date_ic"></i>
+                        </label>
+                    </li>
+                    <li>
+                        <p>
+                            <em>※</em>
+                            連絡先番号
+                        </p>
+                        <label for="">
+                            <input type="text" value="********">
+                            <i class="edit_ic phoneChange"></i>
+                        </label>
+                    </li>
+                    <li>
+                        <p>LINE ID</p>
+                        <label for="">
+                            <input type="text" value="********">
+                        </label>
+                    </li>
+                    <li>
+                        <p>Twitter ID</p>
+                        <label for="">
+                            <input type="text" value="********">
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg_wood long">
+                <p>知人・友人を招待する</p>
+            </div>
+            <div class="inviteBox">
+                <ul>
+                    <li>
+                        <p>招待コード</p>
+                        <label for="">
+                            <input type="text" value="***********">
+                        </label>
+                    </li>
+                    <li>
+                        <p>招待URL</p>
+                        <label for="">
+                            <input type="text" value="***********">
+                        </label>
+                    </li>
+                    <li>
+                        <p>招待QR</p>
+                        <div class="qrImg"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li>
+                <a href="./innerIndex.html">
+                    <i class="footer_ic index"></i>
+                    <p>ホーム</p>
+                </a>
+            </li>
+            <li>
+                <a href="./event.html">
+                    <i class="footer_ic event"></i>
+                    <p>プロモーション</p>
+                </a>
+            </li>
+            <li>
+                <a href="./wallet.html">
+                    <i class="footer_ic wallet"></i>
+                    <p>ウォレット</p>
+                </a>
+            </li>
+            <li>
+                <a href="./cs.html">
+                    <i class="footer_ic service"></i>
+                    <p>カスタマー</p>
+                </a>
+            </li>
+            <li>
+                <a href="./member.html">
+                    <i class="footer_ic member active"></i>
+                    <p>マイページ</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--side-->
+    <aside>
+        <button class="chatBtn"></button>
+        <button class="inviteBtn" onclick="window.location.href='./fourGeneration.html'"></button>
+    </aside>
+    <!--filter-->
+    <div class="filter">
+        <!--sideWindow-->
+        <div class="sideWindow">
+            <div class="scrollBox">
+                <!--logo-->
+                <a href="./innerIndex.html" class="logo">
+                    <img src="../images/logo.png" alt="">
+                </a>
+                <!--guideBox-->
+                <div class="guideBox">
+                    <div class="top"></div>
+                    <div class="body">
+                        <div class="loginStyle">
+                            <!--userName-->
+                            <div class="userName">
+                                <p>username</p>
+                                <i class="check_ic"></i>
+                            </div>
+                            <!--userBox-->
+                            <div class="userBox">
+                                <div class="sticker"></div>
+                                <div class="right">
+                                    <div class="titleBox">
+                                        <p>
+                                            <span>VIP RANK</span>
+                                            ELEPHANT
+                                        </p>
+                                        <i class="question_ic"></i>
+                                    </div>
+                                    <div class="walletBox">
+                                        <p>
+                                            <i class="wallet_ic"></i>
+                                            88,888
+                                        </p>
+                                        <i class="reset_ic"></i>
+                                    </div>
+                                    <div class="icBox">
+                                        <a href="./mail.html" class="guide_ic2 message">
+                                            <p>
+                                                <span>5</span>
+                                            </p>
+                                        </a>
+                                        <a href="./mail.html" class="guide_ic2 remind">
+                                            <p>
+                                                <span>3</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--linkBox-->
+                            <div class="linkBox">
+                                <a href="./member.html">
+                                    <i class="member_ic"></i>
+                                    <p>マイページ</p>
+                                </a>
+                                <a href="./deposit.html">
+                                    <i class="moneyBtn deposit"></i>
+                                    <p>入金</p>
+                                </a>
+                                <a href="./transfer.html">
+                                    <i class="moneyBtn transfer"></i>
+                                    <p>振替</p>
+                                </a>
+                                <a href="./withdraw.html">
+                                    <i class="moneyBtn withdrawal"></i>
+                                    <p>出金</p>
+                                </a>
+                            </div>
+                            <!--infoBox-->
+                            
+                        </div>
+                        <ul>
+                            <li onclick="window.location.href='./event.html'">
+                                <p>
+                                    <i class="guide_ic event"></i>
+                                    <span>キャンペーン</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li onclick="window.location.href='./vip.html'">
+                                <p>
+                                    <i class="guide_ic vip"></i>
+                                    <span>VIPクラブ</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li onclick="window.location.href='./affiliate.html'">
+                                <p>
+                                    <i class="guide_ic member"></i>
+                                    <span>アフィリエイト</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                        </ul>
+                        <button class="logoutBtn" onclick="window.location.href='../index.html'">ログアウト</button>
+                    </div>
+                    <div class="bottom"></div>
+                </div>
+                <!--bonus-->
+                <div class="bonus" onclick="window.location.href='./affiliate.html'"></div>
+            </div>
+        </div>
+        <!--phoneWindow-->
+        <div class="jumpWindow small phoneWindow">
+            <p class="title">携帯番号変更</p>
+            <p class="subTitle">
+                現在登録されている携帯番号
+                <br>
+                0000000000
+            </p>
+            <ul>
+                <li>
+                    <label for="">
+                        <input type="text" placeholder="新しい携帯番号を入力">
+                    </label>
+                    <button>認証コード送信</button>
+                </li>
+                <li>
+                    <label for="">
+                        <input type="text" placeholder="認証コードを入力">
+                    </label>
+                </li>
+            </ul>
+            <button class="check">確認</button>
+            <i class="closeBtn"></i>
+        </div>
+        <!--close_ic-->
+        <i class="close_ic"></i>
+    </div>
+    <!--bg-->
+    <div class="bg"></div>
+</body>
+</html>

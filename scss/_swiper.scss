@@ -1,0 +1,482 @@
+.swiper {
+    width: 100%;
+    margin: 7vh 0 2vw;
+
+    .swiper-wrapper {
+
+        .swiper-slide {
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .swiper-pagination-bullet {
+        width: 3vw;
+        height: 3vw;
+        background: $dot_Color;
+        opacity: 0.6;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+    }
+}
+
+.swiper_gameRowList {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2vw;
+
+    &.gamePage {
+        margin: 10vh 0 2vh;
+    }
+
+    .swiper-wrapper {
+
+        .swiper-slide {
+            transform: scale(0.8);
+            filter: brightness(0.5);
+            transition: 0.3s transform;
+
+            &.swiper-slide-active {
+                transform: scale(1.5);
+                filter: brightness(1);
+            }
+
+            .gameRow {
+                width: 100%;
+                height: 0;
+                padding-top: 52%;
+            }
+        }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 7vw;
+        height: 7vw;
+        background: $dot_Color;
+        border-radius: 50%;
+        right: unset;
+        left: unset;
+        transform: translateY(-50%);
+        margin: 0;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 46%;
+            top: 50%;
+            transform: translate(-50%,-50%) rotate(45deg);
+            width: 1vw;
+            height: 1vw;
+            border-style: solid;
+            border-width: 0.75vw 0.75vw 0 0;
+            border-color: $arrow_Color $arrow_Color transparent transparent;
+            opacity: 0.6;
+        }
+        
+        &::after {
+            content: "";
+        }
+    }
+    
+    .swiper-button-prev {
+        left: 20%;
+
+        &::before {
+            left: 54%;
+            transform: translate(-50%,-50%) rotate(-135deg);
+        }
+    }
+    .swiper-button-next {
+        right: 20%;
+    }
+}
+
+.swiper_bank {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4vw;
+    padding: 0 4vw;
+    position: relative;
+   
+    .swiper-wrapper {
+
+        .swiper-slide {
+
+            .bankCard {
+                width: 100%;
+                height: 18vw;
+                position: relative;
+
+
+                .bankC {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+
+                    &.un {
+                        opacity: 0.5;
+                    }
+                }
+
+                .state {
+                    color: $mainColor_1;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                    text-shadow: 2px 2px 0 $textShadow_1;
+                    white-space: nowrap;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 7vw;
+        height: 7vw;
+        position: absolute;
+        top: 20px;
+        left: unset;
+        right: unset;
+        margin: 0;
+
+        &::before,
+        &::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border-radius: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+
+    .swiper-button-prev {
+        left: 0vw;
+    }
+    .swiper-button-next {
+        right: 0vw;
+
+        &::before {
+            transform: translate(-50%,-50%) rotate(180deg);
+        }
+    }
+}
+
+.vipLevelBox {
+    width: 100%;
+    height: auto;
+    padding: 0 1vw;
+    position: relative;
+
+    .swiper_vip {
+        width: 100%;
+        height: 84vw;
+        overflow: hidden;    
+        position: relative;
+       
+        .swiper-wrapper {
+            width: auto;
+            height: 100%;
+    
+            .swiper-slide {
+                width: 44vw !important;
+                height: 100%;
+                padding-top: 14vw;
+    
+                .vipCard {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 4vw 0;
+                    position: relative;
+    
+                    img {
+                        width: 70%;
+                        margin: -20vw auto 2vw;
+                    }
+    
+                    ul {
+                        width: 100%;
+                        height: auto;
+    
+                        li {
+                            width: 100%;
+                            height: auto;
+                            margin-bottom: 2vw;
+    
+                            p {
+                                color: $mainColor_2;
+                                font-size: 0.9rem;
+                                font-weight: bold;
+                                text-align: center;
+                            }
+    
+                            span {
+                                display: block;
+                                color: $subColor_5;
+                                font-size: 0.9rem;
+                                font-weight: bold;
+                                text-align: center;
+                                margin-top: 1vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 7vw;
+        height: 7vw;
+        position: absolute;
+        left: unset;
+        right: unset;
+        margin: 0;
+        z-index: 100;
+
+        &::before,
+        &::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border-radius: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+
+    .swiper-button-prev {
+        left: 0vw;
+    }
+    .swiper-button-next {
+        right: 0vw;
+
+        &::before {
+            transform: translate(-50%,-50%) rotate(180deg);
+        }
+    }
+}
+
+.swiper_eventRowList {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+    .swiper-wrapper {
+        width: auto;
+        display: flex;
+
+        .swiper-slide {
+            transition: 0.3s transform;
+
+            .eventType {
+                width: 82%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 7vw;
+        height: 7vw;
+        background: $dot_Color;
+        border-radius: 50%;
+        right: unset;
+        left: unset;
+        transform: translateY(-50%);
+        margin: 0;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 46%;
+            top: 50%;
+            transform: translate(-50%,-50%) rotate(45deg);
+            width: 1vw;
+            height: 1vw;
+            border-style: solid;
+            border-width: 0.75vw 0.75vw 0 0;
+            border-color: $arrow_Color $arrow_Color transparent transparent;
+            opacity: 0.6;
+        }
+        
+        &::after {
+            content: "";
+        }
+    }
+    
+    .swiper-button-prev {
+        left: 20%;
+
+        &::before {
+            left: 54%;
+            transform: translate(-50%,-50%) rotate(-135deg);
+        }
+    }
+    .swiper-button-next {
+        right: 20%;
+    }
+}
+
+.swiper_deposit {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    margin: 3vw 0;    
+    position: relative;
+    
+    .swiper-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0 10vw;
+
+        .swiper-slide {
+            width: auto;
+            height: auto;
+            margin-right: 4vw;
+
+            button {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                background: transparent;
+                @include btnStyle_2;
+                border-radius: 4vw;
+                padding: 2vw;
+                position: relative;
+
+                &:active, &.active {
+                    padding: 2vw;
+
+                    i {
+                        background-position-y: 100%;
+                    }
+                }
+
+                i {
+                    width: 14vw;
+                    height: 14vw;
+                    background-position-y: 0;
+
+                    &.bank {
+                        background-position-x: 0;
+                    }
+
+                    &.usdt {
+                        background-position-x: 20%;
+                    }
+
+                    &.stick {
+                        background-position-x: 40%;
+                    }
+                    
+                    &.tiger {
+                        background-position-x: 60%;
+                    }
+
+                    &.vega {
+                        background-position-x: 80%;
+                    }
+
+                    &.iWallet {
+                        background-position-x: 100%;
+                    }
+                }
+            }
+
+            p {
+                color: $mainColor_1;
+                font-size: 0.9rem;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 2vw;
+            }
+        }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 7vw;
+        height: 7vw;
+        background: $mainBG_2;
+        border-radius: 30vw;
+        position: absolute;
+        top: 50%;
+        left: unset;
+        right: unset;
+        transform: translateY(-50%);
+        margin: 0;
+        z-index: 10;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 46%;
+            top: 50%;
+            transform: translate(-50%,-50%) rotate(45deg);
+            width: 1vw;
+            height: 1vw;
+            border-style: solid;
+            border-width: 0.75vw 0.75vw 0 0;
+            border-color: $arrow_Color $arrow_Color transparent transparent;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: "";
+        }
+    }
+
+    .swiper-button-prev {
+        left: 1.5vw;
+
+        &::before {
+            left: 54%;
+            transform: translate(-50%,-50%) rotate(-135deg);
+        }
+    }
+    .swiper-button-next {
+        right: 1.5vw;
+
+        &::before {
+            transform: translate(-50%,-50%) rotate(47deg);
+        }
+    }
+}
+
+    

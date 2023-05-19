@@ -1,0 +1,888 @@
+//bg
+.bg {
+    background: url('../images/background.png') no-repeat bottom center;
+    background-size: 100%;
+}
+.bg.register {
+    background: url('../images/background_register.png') no-repeat bottom center;
+    background-size: 100%;
+}
+
+//header
+header .lang_ic {
+    background: url('../images/lang_ic.png') no-repeat center;
+    background-size: contain;
+}
+header .money_ic {
+    background: url('../images/money_ic.png') no-repeat center;
+    background-size: contain;
+}
+header .affiliate_ic {
+    background: url('../images/affiliate_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+//home
+.home .loginBox .login {
+    background: url('../images/btnBG_1_small.png') no-repeat center;
+    background-size: contain;
+}
+.home .loginBox .register {
+    background: url('../images/btnBG_2_small.png') no-repeat center;
+    background-size: contain;
+}
+.home .loginBox .login:active,
+.home .loginBox .register:active {
+    background: url('../images/btnBG_small_Active.png') no-repeat center;
+    background-size: contain;
+}
+.home .loginBox .moneyBtn {
+    background: url('../images/moneyBtn_ic.png') no-repeat;
+    background-size: 300%;
+}
+.home .newsBox .news_ic {
+    background: url('../images/news_ic.png') no-repeat center;
+    background-size: contain;
+}
+.home .eventBox .event_ic {
+    background: url('../images/event_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+//gameBox
+.gameBox .platformBox .sport {
+    background: url('../images/game/sport/game_sport.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .platformBox .live {
+    background: url('../images/game/live/game_live.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .platformBox .slot {
+    background: url('../images/game/slot/game_slot.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .platformBox .hot {
+    background: url('../images/game/hot/game_hot.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .platformBox .new {
+    background: url('../images/game/new/game_new.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .platformBox .bonus {
+    background: url('../images/game/game_bonus.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .line {
+    background: url('../images/game_line.png') no-repeat center;
+    background-size: contain;
+}
+.gameRow.sport {
+    background: url('../images/game/rowList/sport.png') no-repeat center;
+    background-size: contain;
+}
+.gameRow.live {
+    background: url('../images/game/rowList/live.png') no-repeat center;
+    background-size: contain;
+}
+.gameRow.slot {
+    background: url('../images/game/rowList/slot.png') no-repeat center;
+    background-size: contain;
+}
+.gameRow.fish {
+    background: url('../images/game/rowList/fish.png') no-repeat center;
+    background-size: contain;
+}
+.gameRow.board {
+    background: url('../images/game/rowList/board.png') no-repeat center;
+    background-size: contain;
+}
+.gameBox .like_ic {
+    background: url('../images/like_ic.png') no-repeat;
+    background-size: 100%;
+}
+.gameBox .hot_ic {
+    background: url('../images/hot_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+//downList
+.downList .line {
+    background: url('../images/game_line.png') no-repeat center;
+    background-size: contain;
+}
+.downList .titleLine.siteMenu {
+    background: url('../images/downList_titleLine_siteMenu.png') no-repeat center;
+    background-size: contain;
+}
+.downList .titleLine.guide {
+    background: url('../images/downList_titleLine_guide.png') no-repeat center;
+    background-size: contain;
+}
+.downList .titleLine.sns {
+    background: url('../images/downList_titleLine_sns.png') no-repeat center;
+    background-size: contain;
+}
+.downList .gcLink a {
+    background: url('../images/downList_gcLink.png') no-repeat center;
+    background-size: contain;
+}
+.downList .snsLink a {
+    background: url('../images/downList_snsLink.png') no-repeat;
+    background-size: 500%;
+}
+
+//transfer
+.transferWrap .btnRow button:nth-of-type(1) i {
+    background: url('../images/deposit_ic.png') no-repeat center;
+    background-size: contain;
+}
+.transferWrap .btnRow button:nth-of-type(2) i {
+    background: url('../images/transfer_ic.png') no-repeat center;
+    background-size: contain;
+}
+.transferWrap .btnRow button:nth-of-type(3) i {
+    background: url('../images/withdraw_ic.png') no-repeat center;
+    background-size: contain;
+}
+.transferWrap .titleLine.transfer {
+    background: url('../images/titleLine_transfer.png') no-repeat center;
+    background-size: contain;
+}
+.transferWrap .darrow_ic {
+    background: url('../images/arrow_2.png') no-repeat center;
+    background-size: contain;
+}
+
+//withdraw
+.withdrawWrap .btnRow button:nth-of-type(1) i {
+    background: url('../images/deposit_ic.png') no-repeat center;
+    background-size: contain;
+}
+.withdrawWrap .btnRow button:nth-of-type(2) i {
+    background: url('../images/transfer_ic.png') no-repeat center;
+    background-size: contain;
+}
+.withdrawWrap .btnRow button:nth-of-type(3) i {
+    background: url('../images/withdraw_ic.png') no-repeat center;
+    background-size: contain;
+}
+.withdrawWrap .titleLine.withdraw {
+    background: url('../images/titleLine_withdraw.png') no-repeat center;
+    background-size: contain;
+}
+
+//共用icon
+.state i.dbarrow_ic {
+    background: url('../images/darrow_ic.png') no-repeat center;
+    background-size: contain;
+}
+i.copy_ic {
+    background: url('../images/copy_ic.png') no-repeat;
+    background-size: 100%;
+}
+i.arrow_ic,
+.searchBox i.arrow_ic {
+    background: url('../images/arrow_ic.png') no-repeat;
+    background-size: 100%;
+}
+
+.commonApply form button.apply {
+    background: url('../images/btnBG_1_small.png') no-repeat;
+    background-size: 100%;
+}
+.walletBlock .refresh {
+    background: url('../images/reset_ic.png') no-repeat center;
+    background-size: contain;
+}
+.wrap button i {
+    background: url('../images/return_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+//footer
+footer {
+    background: url('../images/footer_BG.png') no-repeat bottom center;
+    background-size: cover;
+}
+footer .footer_ic {
+    background: url('../images/footer_ic.png') no-repeat;
+    background-size: 500%;
+}
+
+//aside
+aside .chatBtn {
+    background: url('../images/aside_chatBtn.png') no-repeat center;
+    background-size: contain;
+}
+aside .inviteBtn {
+    background: url('../images/aside_inviteBtn.png') no-repeat center;
+    background-size: contain;
+}
+
+//innerPage
+.innerPage .titleLine.myPage {
+    background: url('../images/titleLine_myPage.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.monkey {
+    background: url('../images/level/level_monkey.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.zebra {
+    background: url('../images/level/level_zebra.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.buffalo {
+    background: url('../images/level/level_buffalo.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.giraffe {
+    background: url('../images/level/level_giraffe.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.elephant {
+    background: url('../images/level/level_elephant.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.gorilla {
+    background: url('../images/level/level_gorilla.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .lvBox .level.lion {
+    background: url('../images/level/level_lion.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .check_ic {
+    background: url('../images/check_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .wallet_ic {
+    background: url('../images/wallet_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .add_ic {
+    background: url('../images/add_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .other_ic {
+    background: url('../images/otherLink_ic.png') no-repeat;
+    background-size: 1700%;
+}
+.innerPage .memberWrap .edit_ic {
+    background: url('../images/edit_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .date_ic {
+    background: url('../images/date_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .memberWrap .status_ic {
+    background: url('../images/status_ic.png') no-repeat;
+    background-size: 500%;
+}
+.innerPage .memberWrap .confirm_ic {
+    background: url('../images/confirm_ic.png') no-repeat;
+    background-size: 200%;
+}
+.innerPage .memberWrap .qrImg {
+    background: url('../images/qrImg.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .kycWrap .img.inviteImg_1 {
+    background: url('../images/inviteImg_1.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .kycWrap .img.inviteImg_2 {
+    background: url('../images/inviteImg_2.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .kycWrap .upload_ic {
+    background: url('../images/upload_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .kycWrap .btnRow button:nth-of-type(1) {
+    background: url('../images/btnBG_small_Active.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .kycWrap .btnRow button:nth-of-type(2) {
+    background: url('../images/btnBG_1_small.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .mailWrap .tab_List li {
+    background: url('../images/typeBtnL_BG.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .mailWrap .changeBox .type {
+    background: url('../images/typeBG.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .historyWrap .tab_List li,
+.innerPage .promotionWrap .tab_List li,
+.innerPage .fourGenerationWrap .tab_List li {
+    background: url('../images/typeBtnM_BG.png') no-repeat;
+    background-size: 100%;
+}
+.innerPage .promotionWrap .detailHint span {
+    background: url('../images/hintArrow_ic.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .promotionWrap .changeBox .dataBox .current button.apply,
+.innerPage .fourGenerationWrap .changeBox .searchBox form button {
+    background: url('../images/btnBG_1_mid.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .promotionWrap .changeBox .dataBox .current button.finished {
+    background: url('../images/btnBG_2_small.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .changeBox .searchBox {
+    background: url('../images/searchBox_BG.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .changeBox .searchBox.big {
+    background: url('../images/searchBoxL_BG.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .changeBox .searchBox form>button {
+    background: url('../images/btnBG_1_mid.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .changeBox .searchBox form label .arrow_ic{
+    background: url('../images/arrow_ic.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .changeBox .searchBox form label .date_ic{
+    background: url('../images/date_ic.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .fourGenerationWrap .changeBox .searchBox {
+    background: url('../images/searchBoxS_BG.png') no-repeat center;
+    background-size: 100%;
+}
+
+.innerPage .vipWrap .vipState .current {
+    background: url('../images/vipCurrent_BG.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .vipWrap .swiper_vip .vipCard {
+    background: url('../images/vipCard_BG.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .vipWrap .swiper_vip .swiper-button-prev::before,
+.innerPage .vipWrap .swiper_vip .swiper-button-next::before {
+    background: url('../images/swiper_bank_Btn.png') no-repeat center;
+    background-size: 100%;
+}
+
+.innerPage .bankWrap .swiper_bank .swiper-button-prev::before,
+.innerPage .bankWrap .swiper_bank .swiper-button-next::before {
+    background: url('../images/swiper_bank_Btn.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .bankWrap .cardApply {
+    background: url('../images/cardApply_BG.png') no-repeat center;
+    background-size: 100%;
+}
+                
+.innerPage .bankWrap .cardApply form .btnWrap button:nth-of-type(1){
+    background: url('../images/btnBG_small_Active.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .bankWrap .cardApply form .btnWrap button:nth-of-type(2){
+    background: url('../images/btnBG_1_small.png') no-repeat center;
+    background-size: 100%;
+}
+.innerPage .back_ic {
+    background: url('../images/back_ic.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .bg_wood.long {
+    background: url('../images/bg_wood_long.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .bg_wood.short {
+    background: url('../images/bg_wood_short.png') no-repeat center;
+    background-size: contain;
+}
+.innerPage .bg_wood.BG {
+    background: url('../images/bg_wood_BG.png') no-repeat center;
+    background-size: contain;
+}
+
+//客服
+.titleLine.support {
+    background: url('../images/titleLine_support.png') no-repeat center;
+    background-size: contain;
+}
+.csWrap .titleBoard {
+    background: url('../images/titleBoard.png') no-repeat center;
+    background-size: contain;
+}
+
+//錢包
+.titleLine.wallet {
+    background: url('../images/titleLine_wallet.png') no-repeat center;
+    background-size: contain;
+}
+.walletWrap .walletBlock .refresh {
+    background: url('../images/reset_ic.png') no-repeat center;
+    background-size: contain;
+}
+.walletWrap .btnRow button:nth-of-type(1) i {
+    background: url('../images/deposit_ic.png') no-repeat center;
+    background-size: contain;
+}
+.walletWrap .btnRow button:nth-of-type(2) i {
+    background: url('../images/transfer_ic.png') no-repeat center;
+    background-size: contain;
+}
+.walletWrap .btnRow button:nth-of-type(3) i {
+    background: url('../images/withdraw_ic.png') no-repeat center;
+    background-size: contain;
+}
+.walletWrap .platformBlock .top button i {
+    background: url('../images/return_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+.walletWrap .historyType {
+    background: url('../images/typeBG.png') no-repeat center;
+    background-size: contain;
+}
+.walletWrap .historyType .title {
+    background: url('../images/typeBtnL_BG.png') no-repeat center;
+    background-size: 100%;
+}
+
+//活動
+.titleLine.event {
+    background: url('../images/titleLine_event.png') no-repeat center;
+    background-size: contain;
+}
+.eventWrap .eventType {
+    background: url('../images/eventTypeBtn.png') no-repeat;
+    background-size: 100%;
+}
+
+//入金
+.depositWrap .btnRow button:nth-of-type(1) i {
+    background: url('../images/deposit_ic.png') no-repeat center;
+    background-size: contain;
+}
+.depositWrap .btnRow button:nth-of-type(2) i {
+    background: url('../images/transfer_ic.png') no-repeat center;
+    background-size: contain;
+}
+.depositWrap .btnRow button:nth-of-type(3) i {
+    background: url('../images/withdraw_ic.png') no-repeat center;
+    background-size: contain;
+}
+.depositWrap .titleLine.deposit {
+    background: url('../images/titleLine_deposit.png') no-repeat center;
+    background-size: contain;
+}
+.depositWrap .swiper_deposit i.depositTypeIcon {
+    background: url('../images/depositType_ic.png') no-repeat;
+    background-size: 600%;
+}
+.depositWrap .example i.arrowDown_ic {
+    background: url('../images/arrow_1.png') no-repeat;
+    background-size: 100%;
+}
+.depositWrap .changeBlock .copyArea {
+    background: url('../images/depositCopy_BG.png') no-repeat;
+    background-size: 100%;
+}
+.depositWrap .changeBlock .copyArea .title {
+    background: url('../images/typeBtnL_BG.png') no-repeat;
+    background-size: 100%;
+}
+.depositWrap .changeBlock .depositApply form button {
+    background: url('../images/btnBG_1_small.png') no-repeat;
+    background-size: 100%;
+}
+
+//filter
+.sideWindow .registerBtn {
+    background: url('../images/sideWindow_register.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .loginBox {
+    background: url('../images/sideWindow_loginBox.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .loginBtn {
+    background: url('../images/btnBG_1.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .logoutBtn {
+    background: url('../images/btnBG_2.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .loginBtn:active,
+.sideWindow .logoutBtn:active {
+    background: url('../images/btnBG_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .top {
+    background: url('../images/sideWindow_guideBox_1.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .body {
+    background: url('../images/sideWindow_guideBox_2.png') center;
+    background-size: contain;
+}
+.sideWindow .guideBox .bottom {
+    background: url('../images/sideWindow_guideBox_3.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .guide_ic {
+    background: url('../images/sideWindow_guide_ic.png') no-repeat;
+    background-size: 500%;
+}
+.sideWindow .guideBox .check_ic {
+    background: url('../images/check_ic.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .sticker {
+    background: url('../images/levelSticker.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .question_ic {
+    background: url('../images/question_ic.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .wallet_ic {
+    background: url('../images/wallet_ic.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .reset_ic {
+    background: url('../images/reset_ic.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .guide_ic2 {
+    background: url('../images/sideWindow_guide_ic2.png') no-repeat;
+    background-size: 300%;
+}
+.sideWindow .guideBox .member_ic {
+    background: url('../images/footer_ic.png') no-repeat;
+    background-size: 500%;
+}
+.sideWindow .guideBox .moneyBtn {
+    background: url('../images/moneyBtn_ic.png') no-repeat;
+    background-size: 300%;
+}
+.sideWindow .guideBox .infoBG.task {
+    background: url('../images/sideWindow_infoBG_task.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.task:active {
+    background: url('../images/sideWindow_infoBG_task_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.turn {
+    background: url('../images/sideWindow_infoBG_turn.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.turn:active {
+    background: url('../images/sideWindow_infoBG_turn_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.feedback {
+    background: url('../images/sideWindow_infoBG_feedback.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.feedback:active {
+    background: url('../images/sideWindow_infoBG_feedback_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.level {
+    background: url('../images/sideWindow_infoBG_level.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.level:active {
+    background: url('../images/sideWindow_infoBG_level_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.code {
+    background: url('../images/sideWindow_infoBG_code.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.code:active {
+    background: url('../images/sideWindow_infoBG_code_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.event {
+    background: url('../images/sideWindow_infoBG_event.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .guideBox .infoBG.event:active {
+    background: url('../images/sideWindow_infoBG_event_Active.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow .bonus {
+    background: url('../images/sideWindow_bonus.png') no-repeat center;
+    background-size: contain;
+}
+.sideWindow.affiliate .lang_ic {
+    background: url('../images/lang_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+.gameWrap .searchBox {
+    background: url('../images/searchBoxS_BG.png') no-repeat center;
+    background-size: contain;
+}
+.gameWrap .searchBox .btnBox button {
+    background: url('../images/typeBtnM_BG.png') no-repeat;
+    background-size: 100%;
+}
+.gameWrap .like_ic {
+    background: url('../images/like_ic.png') no-repeat;
+    background-size: 100%;
+}
+.gameWrap .hot_ic {
+    background: url('../images/hot_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+.aboutPage .titleLine.guidemenu {
+    background: url('../images/titleLine_guidemenu.png') no-repeat center;
+    background-size: contain;
+}
+.aboutPage .titleLine.aboutUs {
+    background: url('../images/titleLine_aboutUs.png') no-repeat center;
+    background-size: contain;
+}
+.aboutPage .titleLine.privacy {
+    background: url('../images/titleLine_privacy.png') no-repeat center;
+    background-size: contain;
+}
+.aboutPage .titleLine.terms {
+    background: url('../images/titleLine_terms.png') no-repeat center;
+    background-size: contain;
+}
+.aboutPage .titleLine.responsible {
+    background: url('../images/titleLine_responsible.png') no-repeat center;
+    background-size: contain;
+}
+.aboutPage .titleLine.promotions {
+    background: url('../images/titleLine_promotions.png') no-repeat center;
+    background-size: contain;
+}
+.aboutPage .typeList i {
+    background: url('../images/about_ic.png') no-repeat;
+    background-size: 500%;
+}
+
+.faqPage .titleLine.guidemenu {
+    background: url('../images/titleLine_guidemenu.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_kyc {
+    background: url('../images/titleLine_faq_kyc.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_promotion {
+    background: url('../images/titleLine_faq_promotion.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_money {
+    background: url('../images/titleLine_faq_money.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_method {
+    background: url('../images/titleLine_faq_method.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_account {
+    background: url('../images/titleLine_faq_account.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_bonus {
+    background: url('../images/titleLine_faq_bonus.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .titleLine.faq_contact {
+    background: url('../images/titleLine_faq_contact.png') no-repeat center;
+    background-size: contain;
+}
+.faqPage .typeList i {
+    background: url('../images/faq_ic.png') no-repeat;
+    background-size: 100%;
+}
+
+.affiliatePage .affiliate_banner {
+    background: url('../images/affiliate_banner.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .titleLine.affiliate {
+    background: url('../images/titleLine_affiliate.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .titleLine.commission {
+    background: url('../images/titleLine_commission.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .titleLine.affiliate_term {
+    background: url('../images/titleLine_affiliate_term.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .titleLine.affiliate_faq {
+    background: url('../images/titleLine_affiliate_faq.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .titleLine.affiliate_privacy {
+    background: url('../images/titleLine_affiliate_privacy.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .img_1 {
+    background: url('../images/affiliate_Img1.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .check {
+    background: url('../images/btnBG_1_small.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .check:active {
+    background: url('../images/btnBG_small_active.png') no-repeat center;
+    background-size: contain;
+}
+.affiliatePage .faqBase {
+    background: url('../images/affiliate_faqBase.png') no-repeat center;
+    background-size: contain;
+}
+
+
+.jumpWindow.big {
+    background: url('../images/jumpWindowBase_big.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.small {
+    background: url('../images/jumpWIndowBase_small.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.smallest {
+    background: url('../images/jumpWIndowBase_smallest.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow .closeBtn {
+    background: url('../images/jumpWindow_Close.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.news .typeList {
+    background: url('../images/bg_wood_BG.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.news .typeList button {
+    background: url('../images/typeBtnM_BG.png') no-repeat;
+    background-size: 100%;
+}
+.jumpWindow.eventWindow .bg_wood {
+    background: url('../images/bg_wood_BG.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.passwordWindow .check {
+    background: url('../images/btnBG_1_mid.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.passwordWindow .check:active {
+    background: url('../images/btnBG_Active.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.gameWindow .arrow_ic {
+    background: url('../images/arrow_2.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.gameWindow .check {
+    background: url('../images/btnBG_1_mid.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.gameWindow .bg_wood {
+    background: url('../images/bg_wood_BG.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.gameWindow .check.disable {
+    background: url('../images/btnBG_disable.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.phoneWindow .check {
+    background: url('../images/btnBG_1_mid.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.phoneWindow .check:active {
+    background: url('../images/btnBG_Active.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.normalWindow .check {
+    background: url('../images/btnBG_Active.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.normalWindow .check:active {
+    background: url('../images/btnBG_2.png') no-repeat center;
+    background-size: contain;
+}
+
+.jumpWindow.agentApplyWindow {
+    background: url('../images/jumpWindow_agentApply.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow .content form label ul li input::before {
+    background: url('../images/checkBox_BG2.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow .content form label ul li input::after {
+    background: url('../images/checkBox_check.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow .content form .check input::before {
+    background: url('../images/checkBox_BG.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow .content form .check input::after {
+    background: url('../images/checkBox_check.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow button.enter {
+    background: url('../images/btnBG_2.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow button.enter:hover {
+    background: url('../images/btnBG_Active.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow button.enter:active {
+    background: url('../images/btnBG_1.png') no-repeat center;
+    background-size: contain;
+}
+.jumpWindow.agentApplyWindow button.enter:disabled {
+    background: url('../images/btnBG_disable.png') no-repeat center;
+    background-size: contain;
+}
+
+.registerWrap .register_banner {
+    background: url('../images/register_banner.png') no-repeat center;
+    background-size: contain;
+}
+.registerWrap .base {
+    background: url('../images/register_base.png') no-repeat center;
+    background-size: contain;
+}
+.registerWrap .checkBox label {
+    background: url('../images/checkBox_BG.png') no-repeat center;
+    background-size: contain;
+}
+.registerWrap .checkBox label::before {
+    background: url('../images/checkBox_check.png') no-repeat center;
+    background-size: contain;
+}
+.registerWrap .btnBox .cancel {
+    background: url('../images/btnBG_small_Active.png') no-repeat center;
+    background-size: contain;
+}
+.registerWrap .btnBox .check {
+    background: url('../images/btnBG_1_small.png') no-repeat center;
+    background-size: contain;
+}

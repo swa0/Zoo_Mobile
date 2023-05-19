@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/javascript.js"></script>
+    <link rel="shortcut icon" href="../images/NJLOGO_64x64.ico" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--logo-->
+        <a href="./innerIndex.html" class="logo">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <!--listBtn-->
+        <button class="listBtn display">
+            <i></i>
+            <i></i>
+            <i></i>
+        </button>
+        <!--selectBox-->
+        <div class="selectBox">
+            <!--lang-->
+            <label for="" class="lang">
+                <i class="lang_ic"></i>
+                <select name="" id="">
+                    <option value="">日本語</option>
+                    <option value="">繁體中文</option>
+                    <option value="">简体中文</option>
+                    <option value="">ENGLISH</option>
+                </select>
+            </label>
+        </div>
+    </header>
+    <main class="registerWrap">
+        <div class="register_banner"></div>
+        <div class="base">
+            <p class="title">会員情報入力フォーム</p>
+            <p class="subTitle">以下のフォームに必要事項 をご記入の上、問題が無ければ利用規約に同意の上、送信してください。（<span>※</span>は入力必須項目）</p>
+            <div class="row">
+                <p><span>※</span>アカウントID</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p><span>※</span>携帯電話番号</p>
+                <label for="">
+                    <input type="text">
+                </label>
+                <p class="remind">ハイフンなし11桁</p>
+            </div>
+            <div class="row">
+                <p><span>※</span>携帯認証コード</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p><span>※</span>パスワード</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p><span>※</span>パスワード（確認用）</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p><span>※</span>ご氏名</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p><span>※</span>メールアドレス</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p><span>※</span>生年月日</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row">
+                <p>招待コード</p>
+                <label for="">
+                    <input type="text">
+                </label>
+                <p class="remind">紹介コードがない場合は記入しないでください</p>
+            </div>
+            <div class="row">
+                <p>TwitterID</p>
+                <label for="">
+                    <input type="text">
+                </label>
+            </div>
+            <div class="row checkBox">
+                <label for="">
+                    <input type="checkbox">
+                </label>
+                <div>
+                    <p>利用規約に同意する</p>
+                    <button>【利用規約とプライバシーポリシーはこちら】</button>
+                </div>
+            </div>
+            <div class="row btnBox">
+                <button class="cancel">戻る</button>
+                <button class="check" onclick="window.location.href='../index.html'">確認</button>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li>
+                <a href="../index.html">
+                    <i class="footer_ic index"></i>
+                    <p>ホーム</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="footer_ic event"></i>
+                    <p>プロモーション</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="footer_ic wallet"></i>
+                    <p>ウォレット</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="footer_ic service"></i>
+                    <p>カスタマー</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="footer_ic member"></i>
+                    <p>マイページ</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--side-->
+    <aside>
+        <button class="chatBtn"></button>
+    </aside>
+    <!--bg-->
+    <div class="bg register"></div>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/javascript.js"></script>
+    <link rel="shortcut icon" href="./images/NJLOGO_64x64.ico" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--logo-->
+        <a href="./index.html" class="logo">
+            <img src="./images/logo.png" alt="">
+        </a>
+        <!--listBtn-->
+        <button class="listBtn display">
+            <i></i>
+            <i></i>
+            <i></i>
+        </button>
+        <!--selectBox-->
+        <div class="selectBox">
+            <!--lang-->
+            <label for="" class="lang only">
+                <i class="lang_ic"></i>
+                <select name="" id="">
+                    <option value="">日本語</option>
+                    <option value="">繁體中文</option>
+                    <option value="">简体中文</option>
+                    <option value="">ENGLISH</option>
+                </select>
+            </label>
+        </div>
+    </header>
+    <!--swiper-->
+    <section class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/banner.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!--home-->
+    <main class="home">
+        <!--登入區-->
+        <div class="loginBox display">
+            <!--left-->
+            <div class="left">
+                <button class="login">ログイン</button>
+                <button class="register" onclick="window.location.href='./html/register.html'">新規登録</button>
+            </div>
+            <!--right-->
+            <div class="right">
+                <a href="javascript:;" class="unLogin">
+                    <i class="moneyBtn deposit"></i>
+                    <p>入金</p>
+                </a>
+                <a href="javascript:;" class="unLogin">
+                    <i class="moneyBtn transfer"></i>
+                    <p>振替</p>
+                </a>
+                <a href="javascript:;" class="unLogin">
+                    <i class="moneyBtn withdrawal"></i>
+                    <p>出金</p>
+                </a>
+            </div>
+        </div>
+        <!--最新消息-->
+        <div class="newsBox">
+            <i class="news_ic"></i>
+            <ul>
+                <li class="hidden">・直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット</li>
+                <li class="hidden">・直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット</li>
+                <li class="hidden">・直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット</li>
+                <li class="hidden">・直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット直近目玉のスポーツベット</li>
+            </ul>
+        </div>
+        <button class="moreNews">全てのニュースを見る</button>
+        <!--活動-->
+        <!-- <div class="eventBox">
+            <p class="title">
+                <i class="event_ic"></i>
+                現在開催中のプロモーション
+            </p>
+            <div class="innerBox">
+                <div class="scrollBox">
+                    <div class="linkBox">
+                        <div class="imgBox">
+                            <img src="./images/eventImg_1.png" alt="">
+                        </div>
+                        <p>初回入金65％キャッシュバック</p>
+                    </div>
+                    <div class="linkBox">
+                        <div class="imgBox">
+                            <img src="./images/eventImg_2.png" alt="">
+                        </div>
+                        <p>スロット週間キャッシュバック</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <!--gameBox-->
+    <div class="gameBox">
+        <div class="platformBox">
+            <ul>
+                <ol>
+                    <li class="sport unLogin"></li>
+                    <li class="live unLogin"></li>
+                    <li class="slot unLogin"></li>
+                </ol>
+                <ol>
+                    <li class="hot unLogin"></li>
+                    <li class="new unLogin"></li>
+                    <li class="bonus unLogin"></li>
+                </ol>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <section class="swiper_gameRowList">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="gameRow sport"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gameRow live"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gameRow slot"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gameRow fish"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gameRow board"></div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+	        <div class="swiper-button-next"></div>
+        </section>
+        <ul class="gameList">
+            <ol class="display">
+                <li class="unLogin">
+                    <div class="imgBox">
+                        <img src="#" alt="">
+                        <i class="like_ic active"></i>
+                        <i class="hot_ic"></i>
+                    </div>
+                    <p>5 Rabbits Megaways</p>
+                </li>
+                <li class="unLogin">
+                    <div class="imgBox">
+                        <img src="#" alt="">
+                        <i class="like_ic"></i>
+                    </div>
+                    <p>5 Rabbits Megaways</p>
+                </li>
+                <li class="unLogin">
+                    <div class="imgBox">
+                        <img src="#" alt="">
+                        <i class="like_ic active"></i>
+                    </div>
+                    <p>5 Rabbits Megaways</p>
+                </li>
+                <li class="unLogin">
+                    <div class="imgBox">
+                        <img src="#" alt="">
+                        <i class="like_ic"></i>
+                    </div>
+                    <p>5 Rabbits Megaways</p>
+                </li>
+                <li class="unLogin">
+                    <div class="imgBox">
+                        <img src="#" alt="">
+                        <i class="like_ic"></i>
+                    </div>
+                    <p>5 Rabbits Megaways</p>
+                </li>
+                <li class="unLogin">
+                    <div class="imgBox">
+                        <img src="#" alt="">
+                        <i class="like_ic"></i>
+                    </div>
+                    <p>5 Rabbits Megaways</p>
+                </li>
+            </ol>
+        </ul>
+    </div>
+    <!--downList-->
+    <div class="downList">
+        <div class="line"></div>
+        <div class="titleLine siteMenu"></div>
+        <ul class="linkBox">
+            <li>
+                <a href="javascript:;" class="unLogin">弊社について</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">プライバシーポリシー</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">ご利用規約</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">責任あるプレイ</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">アフィリエイト</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">ライセンス</a>
+            </li>
+            <li class="gcLink">
+                <a href="javascript:;" class="unLogin"></a>
+            </li>
+        </ul>
+        <div class="titleLine guide"></div>
+        <ul class="linkBox">
+            <li>
+                <a href="javascript:;" class="unLogin">VIPレベル</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">プロモーション</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">入出金と振替</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">入出金方法</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">決済方法</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">登録とアカウント</a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">お問い合わせ</a>
+            </li>
+        </ul>
+        <div class="titleLine sns"></div>
+        <ul class="linkBox">
+            <li class="snsLink">
+                <a href="javascript:;" class="unLogin twitter"></a>
+                <a href="javascript:;" class="unLogin youtube"></a>
+                <a href="javascript:;" class="unLogin facebook"></a>
+                <a href="javascript:;" class="unLogin Line"></a>
+            </li>
+        </ul>
+    </div>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li>
+                <a href="./index.html">
+                    <i class="footer_ic index active"></i>
+                    <p>ホーム</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">
+                    <i class="footer_ic event"></i>
+                    <p>プロモーション</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">
+                    <i class="footer_ic wallet"></i>
+                    <p>ウォレット</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">
+                    <i class="footer_ic service"></i>
+                    <p>カスタマー</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="unLogin">
+                    <i class="footer_ic member"></i>
+                    <p>マイページ</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--side-->
+    <aside>
+        <button class="chatBtn"></button>
+        <button class="inviteBtn"></button>
+    </aside>
+    <!--filter-->
+    <div class="filter">
+        <!--sideWindow-->
+        <div class="sideWindow">
+            <div class="scrollBox">
+                <!--logo-->
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <!--registerBtn-->
+                <a href="./html/register.html" class="registerBtn display"></a>
+                <!--loginBox-->
+                <div class="loginBox display">
+                    <label for="">
+                        <p>ID</p>
+                        <input type="text" placeholder="userid">
+                    </label>
+                    <label for="">
+                        <p>PW</p>
+                        <input type="password" placeholder="******">
+                    </label>
+                    <button class="loginBtn" onclick="window.location.href='./html/innerIndex.html'">ログイン</button>
+                    <p class="forget">パスワードを忘れた方はこちら</p>
+                </div>
+                <!--guideBox-->
+                <div class="guideBox">
+                    <div class="top"></div>
+                    <div class="body noPadding">
+                        <ul>
+                            <li class="unLogin">
+                                <p>
+                                    <i class="guide_ic event"></i>
+                                    <span>キャンペーン</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li class="unLogin">
+                                <p>
+                                    <i class="guide_ic vip"></i>
+                                    <span>VIPクラブ</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li class="unLogin">
+                                <p>
+                                    <i class="guide_ic member"></i>
+                                    <span>アフィリエイト</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom"></div>
+                </div>
+                <!--bonus-->
+                <div class="bonus" onclick="window.location.href='./html/affiliate.html'"></div>
+            </div>
+        </div>
+        <!--historyWindow-->
+        <div class="jumpWindow small passwordWindow">
+            <p class="title">パスワード再設定</p>
+            <p class="subTitle">
+                パスワードをお忘れの方は、以下のフォームにご登録の携帯番号をご入力下さい。
+                <br>
+                SMSが届かない場合は時間を置いていただくか、再度認証コードを送信して下さい。
+            </p>
+            <ul>
+                <li>
+                    <label for="">
+                        <input type="text" placeholder="登録済携帯番号を入力">
+                    </label>
+                    <button>認証コード送信</button>
+                </li>
+                <ol>
+                    <li>
+                        <label for="">
+                            <input type="text" placeholder="認証コードを入力">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="">
+                            <input type="text" placeholder="新しいパスワードを入力">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="">
+                            <input type="text" placeholder="新しいパスワードを入力（確認用）">
+                        </label>
+                    </li>
+                </ol>
+            </ul>
+            <button class="check">確認</button>
+            <i class="closeBtn"></i>
+        </div>
+        <!--normalWindow-->
+        <div class="jumpWindow smallest normalWindow">
+            <p class="title">システムメッセージ</p>
+            <p class="text">○○○○○○○○○●○○○○○○○○○●○○○○○○○○○●○○○○○○○○○●○○○○○○○○○●○○○○○○○○○●○○○○○○○○○</p>
+            <button class="check">確認</button>
+            <i class="closeBtn"></i>
+        </div>
+        <!--close_ic-->
+        <i class="close_ic"></i>
+    </div>
+    <!--bg-->
+    <div class="bg"></div>
+</body>
+</html>

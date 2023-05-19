@@ -1,0 +1,256 @@
+//bg
+$mainBG_1: #000000;
+$mainBG_2: #ffffff;
+$mainBG_3: #998675;
+@mixin bgStyle_1 {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+@mixin bgStyle_2 {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: 100%;
+        background: #00000059;
+        border: solid 2px #ffffff59;
+        border-radius: 2vw;
+        z-index: -1;
+    }
+}
+
+$subBG_1: #F44336;
+$subBG_2: #008040;
+$subBG_3: #C00000;
+
+//color
+$mainColor_1: #ffffff;
+$mainColor_2: #000000;
+
+$subColor_1: #FBB03B;
+$subColor_2: #C1272D;
+$subColor_3: #C7B299;
+$subColor_4: #FFE552;
+$subColor_5: #FF0000;
+$subColor_6: #534741;
+$subColor_7: #F7931E;
+$subColor_8: #39A2F7;
+$subColor_9: #736357;
+$subColor_10: #0000FF;
+$subColor_11: #0071BC;
+
+$linearColor_1: linear-gradient(to bottom, #F15A24 0%, #FF0000 100%);
+
+//border
+$mainBorder_1: #ffffff;
+$mainBorder_2: #998675;
+
+$subBorder_1: #534741;
+$subBorder_2: #5347414f;
+
+//shadow
+$textShadow_1: #000000cc;
+$textShadow_2: #00000066;
+
+//font
+@mixin fontStyle_1 {
+    color: $subColor_6;
+    font-family: "メイリオ";
+    font-weight: bold;
+    text-align: left;
+    text-shadow: -1px 0 $mainBorder_1, 0 1px $mainBorder_1, 1px 0 $mainBorder_1, 0 -1px $mainBorder_1;
+}
+
+//swiper
+$dot_Color: #ffffff;
+$arrow_Color: #000000;
+
+//filter
+@mixin loginInput {
+    background: #FFFFFF;
+    border-radius: 1vw;
+    border: solid 2px #666666;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2vw;
+
+    &::placeholder {
+        color: #000000;
+    }
+}
+@mixin guideList {
+    background: #ffffff1a;
+    border: solid 2px #ffffff33;
+    box-shadow: 0 0 0 2px #00000066 inset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw 0 2vw;
+
+    &:active,&.active {
+        background: #FBB03B;
+        box-shadow: none;
+        border-color: #ffffff;
+    }
+}
+
+
+//button
+@mixin btnStyle_1 {
+    background: #9986754d;
+    border: solid 2px #998675;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:active,&.active {
+        background: linear-gradient(to bottom,#FFFF00 0%,#F7931E 100%);
+        border-color: #ffffff;
+        box-shadow: 0 0 0 2px #00000080;
+    }
+
+    &.logout {
+
+        &:active,&.active {
+            background: linear-gradient(to bottom,#FFB1AA 0%,#FF0000 100%);
+        }
+    }
+}
+@mixin btnStyle_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #be9e8169;
+    border: 0.6vw solid #7c6c64;
+    border-radius: 3vw;
+    overflow: hidden;
+    position: relative;
+
+    p {
+        color: #6d564b;
+        font-size: 0.9rem;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    &::before {
+        content: "";
+        width: calc(100% - 1vw);
+        height: calc(100% - 1vw);
+        background: transparent;
+        border-radius: 3vw;
+        border: 0.6vw solid transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    &:active, &.active {
+        background: linear-gradient(to bottom, #FFFF00 0%, #F7931E 100%);
+        border-color: #ffffff;
+        box-sizing: border-box;
+
+        &::before {
+            border-color: #000000;
+        }
+
+        p {
+            color: $mainColor_1;
+            text-shadow: 2px 2px 0 $textShadow_1;
+        }
+    }
+}
+@mixin btnStyle_3 {
+    background: linear-gradient(to bottom, #FFFF00 0%, #F7931E 100%);
+    border-radius: 50vw;
+    border: 0.8vw solid #ffffff;
+    color: $mainColor_2;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: calc(100% - 0.53vw);
+        height: calc(100% - 0.53vw);
+        background: transparent;
+        border-radius: 50vw;
+        border: 0.53vw solid #534741;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8;
+        z-index: 1;
+    }
+}
+
+
+//input
+
+
+@mixin inputStyle_1 {
+    display: block;
+    background: #9986751a;
+    border-radius: 1vw;
+    border: solid 2px #998675;
+}
+
+//home
+@mixin moneyBtn {
+    background: #9986751a;
+    border: solid 2px #998675;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &:active,&.active {
+        background: #ffffff66;
+        border-color: #FFFFFF;
+    }
+}
+
+//mailWrap
+@mixin more {
+    background: #E79600;
+    border-radius: 50%;
+    box-shadow: inset -0.8vw -0.8vw #DB7019;
+    position: relative;
+
+    &::before {
+        content: '...';
+        color: $mainColor_1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-bottom: 3vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+//共用
+@mixin textHide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/javascript.js"></script>
+    <link rel="shortcut icon" href="../images/NJLOGO_64x64.ico" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--logo-->
+        <a href="./innerIndex.html" class="logo">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <!--listBtn-->
+        <button class="listBtn display">
+            <i></i>
+            <i></i>
+            <i></i>
+        </button>
+        <!--selectBox-->
+        <div class="selectBox">
+            <!--lang-->
+            <label for="" class="lang">
+                <i class="lang_ic"></i>
+                <select name="" id="">
+                    <option value="">日本語</option>
+                    <option value="">繁體中文</option>
+                    <option value="">简体中文</option>
+                    <option value="">ENGLISH</option>
+                </select>
+            </label>
+            <!--money-->
+            <label for="" class="money">
+                <i class="money_ic"></i>
+                <select name="" id="">
+                    <option value="">USD</option>
+                    <option value="">NTD</option>
+                </select>
+            </label>
+        </div>
+    </header>
+    <main class="innerPage">
+        <div class="withdrawWrap">
+            <div class="btnRow">
+                <button type="button">
+                    <a href="./deposit.html">
+                        <i class="btn_ic"></i>
+                    </a>
+                    <p>入金</p>
+                </button>
+                <button type="button">
+                    <a href="./transfer.html">
+                        <i class="btn_ic"></i>
+                    </a>
+                    <p>振替</p>
+                </button>
+                <button type="button">
+                    <a href="./withdraw.html" class="active">
+                        <i class="btn_ic"></i>
+                    </a>
+                    <p>出金</p>
+                </button>
+            </div>
+            <div class="titleLine withdraw"></div>
+            <div class="wrap">
+                <div class="walletBlock">
+                    <div class="item">
+                        <p class="title">メインウォレット</p>
+                        <p class="num">0.00<span>USD</span></p>
+                    </div>
+                    <i class="refresh"></i>
+                </div>
+                <button type="button">
+                    <i class="return_ic"></i>
+                    <p>メインウォレットに
+                        全ての残高を戻す</p>
+                </button>
+            </div>
+           <div class="bg_wood long">
+                <p>出金申請</p>
+            </div>
+            <div class="changeBlock">
+                <div class="commonApply">
+                    <form>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                送金元ウォレット
+                            </p>
+                            <select>
+                                <option>選択して下さい</option>
+                            </select>
+                            <i class="arrow_ic"></i>
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                送金先ウォレット
+                            </p>
+                            <select>
+                                <option>選択して下さい</option>
+                            </select>
+                            <i class="arrow_ic"></i>
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                振替金額
+                            </p>
+                            <input type="text" placeholder="**********">
+                            <div class="rule"><p>入金可能額</p><span class="colon">：</span>0 USD　～　∞</div>
+                            <div class="rule"><p>参照為替レート</p><span class="colon">：</span>＊＊＊＊＊＊＊＊</div>
+                            <div class="rule"><p>入金完了予定額</p><span class="colon">：</span><span class="highlight">0000 円</span></div>
+                            <div class="rule"><p>（入金時の為替レートを基準としています）</p></div>
+                            <div class="remindText">
+                                <p>※出金対応時間は、銀行振込・USDT・POINT66ともに平日10:00~18:00(日本時間)および土日祝日10:00~15:00(日本時間)となります。</p>
+                                <p>※土日祝日の出金は通常より出金処理にお時間を頂戴する可能性がございます。あらかじめご了承ください。</p>
+                                <p>※出金対応時間外の出金申請は、翌出金対応時間より順次出金処理を行います。</p>
+                            </div>
+                        </label>
+                        <button type="submit" class="apply" disabled>残高振替をする</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bg_wood long">
+                <p>各ゲームウォレット残高一覧</p>
+            </div>
+            <div class="platformBlock active">
+                <div class="content">
+                    <p class="text">
+                        最終更新時間：
+                        <span>0000/00/00 00:00:00</span>
+                    </p>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                    <div class="platform">
+                        <p>Pragmatic Play Live</p>
+                        <p>0.00<span>USD</span></p>
+                    </div>
+                </div>
+                <div class="state">
+                    <i class="dbarrow_ic"></i>
+                    <p>閉じる</p>
+                    <i class="dbarrow_ic"></i>
+                </div>
+            </div>
+            <div class="remindBox">
+                <div class="bg_wood short">
+                    <p>注意事項</p>
+                </div>
+               <div class="textArea">
+               </div>
+           </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li>
+                <a href="./innerIndex.html">
+                    <i class="footer_ic index"></i>
+                    <p>ホーム</p>
+                </a>
+            </li>
+            <li>
+                <a href="./event.html">
+                    <i class="footer_ic event"></i>
+                    <p>プロモーション</p>
+                </a>
+            </li>
+            <li>
+                <a href="./wallet.html">
+                    <i class="footer_ic wallet active"></i>
+                    <p>ウォレット</p>
+                </a>
+            </li>
+            <li>
+                <a href="./cs.html">
+                    <i class="footer_ic service"></i>
+                    <p>カスタマー</p>
+                </a>
+            </li>
+            <li>
+                <a href="./member.html">
+                    <i class="footer_ic member"></i>
+                    <p>マイページ</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--side-->
+    <aside>
+        <button class="chatBtn"></button>
+        <button class="inviteBtn" onclick="window.location.href='./fourGeneration.html'"></button>
+    </aside>
+    <!--filter-->
+    <div class="filter">
+        <!--sideWindow-->
+        <div class="sideWindow">
+            <div class="scrollBox">
+                <!--logo-->
+                <a href="./innerIndex.html" class="logo">
+                    <img src="../images/logo.png" alt="">
+                </a>
+                <!--guideBox-->
+                <div class="guideBox">
+                    <div class="top"></div>
+                    <div class="body">
+                        <div class="loginStyle">
+                            <!--userName-->
+                            <div class="userName">
+                                <p>username</p>
+                                <i class="check_ic"></i>
+                            </div>
+                            <!--userBox-->
+                            <div class="userBox">
+                                <div class="sticker"></div>
+                                <div class="right">
+                                    <div class="titleBox">
+                                        <p>
+                                            <span>VIP RANK</span>
+                                            ELEPHANT
+                                        </p>
+                                        <i class="question_ic"></i>
+                                    </div>
+                                    <div class="walletBox">
+                                        <p>
+                                            <i class="wallet_ic"></i>
+                                            88,888
+                                        </p>
+                                        <i class="reset_ic"></i>
+                                    </div>
+                                    <div class="icBox">
+                                        <a href="./mail.html" class="guide_ic2 message">
+                                            <p>
+                                                <span>5</span>
+                                            </p>
+                                        </a>
+                                        <a href="./mail.html" class="guide_ic2 remind">
+                                            <p>
+                                                <span>3</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--linkBox-->
+                            <div class="linkBox">
+                                <a href="./member.html">
+                                    <i class="member_ic"></i>
+                                    <p>マイページ</p>
+                                </a>
+                                <a href="./deposit.html">
+                                    <i class="moneyBtn deposit"></i>
+                                    <p>入金</p>
+                                </a>
+                                <a href="./transfer.html">
+                                    <i class="moneyBtn transfer"></i>
+                                    <p>振替</p>
+                                </a>
+                                <a href="./withdraw.html">
+                                    <i class="moneyBtn withdrawal"></i>
+                                    <p>出金</p>
+                                </a>
+                            </div>
+                            <!--infoBox-->
+                            
+                        </div>
+                        <ul>
+                            <li onclick="window.location.href='./event.html'">
+                                <p>
+                                    <i class="guide_ic event"></i>
+                                    <span>キャンペーン</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li onclick="window.location.href='./vip.html'">
+                                <p>
+                                    <i class="guide_ic vip"></i>
+                                    <span>VIPクラブ</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li onclick="window.location.href='./affiliate.html'">
+                                <p>
+                                    <i class="guide_ic member"></i>
+                                    <span>アフィリエイト</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                        </ul>
+                        <button class="logoutBtn" onclick="window.location.href='../index.html'">ログアウト</button>
+                    </div>
+                    <div class="bottom"></div>
+                </div>
+                <!--bonus-->
+                <div class="bonus" onclick="window.location.href='./affiliate.html'"></div>
+            </div>
+        </div>
+        <!--close_ic-->
+        <i class="close_ic"></i>
+    </div>
+    <!--bg-->
+    <div class="bg"></div>
+</body>
+</html>

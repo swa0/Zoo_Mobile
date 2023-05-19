@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/javascript.js"></script>
+    <link rel="shortcut icon" href="../images/NJLOGO_64x64.ico" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--logo-->
+        <a href="./innerIndex.html" class="logo">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <!--listBtn-->
+        <button class="listBtn display">
+            <i></i>
+            <i></i>
+            <i></i>
+        </button>
+        <!--selectBox-->
+        <div class="selectBox">
+            <!--lang-->
+            <label for="" class="lang">
+                <i class="lang_ic"></i>
+                <select name="" id="">
+                    <option value="">日本語</option>
+                    <option value="">繁體中文</option>
+                    <option value="">简体中文</option>
+                    <option value="">ENGLISH</option>
+                </select>
+            </label>
+            <!--money-->
+            <label for="" class="money">
+                <i class="money_ic"></i>
+                <select name="" id="">
+                    <option value="">USD</option>
+                    <option value="">NTD</option>
+                </select>
+            </label>
+        </div>
+    </header>
+    <main class="innerPage">
+        <div class="depositWrap">
+            <div class="btnRow">
+                <button type="button">
+                    <a href="./deposit.html"  class="active">
+                        <i class="btn_ic"></i>
+                    </a>
+                    <p>入金</p>
+                </button>
+                <button type="button">
+                    <a href="./transfer.html">
+                        <i class="btn_ic"></i>
+                    </a>
+                    <p>振替</p>
+                </button>
+                <button type="button">
+                    <a href="./withdraw.html">
+                        <i class="btn_ic"></i>
+                    </a>
+                    <p>出金</p>
+                </button>
+            </div>
+            <div class="titleLine deposit"></div>
+            <div class="swiper_deposit">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <button type="button" class="active">
+                            <i class="depositTypeIcon bank"></i>
+                        </button>
+                        <p>銀行振込</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <button type="button">
+                            <i class="depositTypeIcon usdt"></i>
+                        </button>
+                        <p>USDT</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <button type="button">
+                            <i class="depositTypeIcon stick"></i>
+                        </button>
+                        <p>STICK PAY</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <button type="button">
+                            <i class="depositTypeIcon tiger"></i>
+                        </button>
+                        <p>TIGER PAY</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <button type="button">
+                            <i class="depositTypeIcon vega"></i>
+                        </button>
+                        <p>VegaWallet</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <button type="button">
+                            <i class="depositTypeIcon iWallet"></i>
+                        </button>
+                        <p>iWalletPay</p>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+           <ul class="bg_wood long">
+                <li class="display">
+                    <p>銀行振込</p>
+                </li>
+                <li>
+                    <p>USDT</p>
+                </li>
+            </ul>
+            <div class="changeBlock display">
+                <div class="textInfo">
+                    <p>ご入金の手順は以下の順序でお願い致します。</p>
+                    <ul>
+                        <li>
+                            <p>①金融機関を選択</p>
+                        </li>
+                        <li>
+                            <p>②入金申請フォームから必要項目を入力し送信する</p>
+                        </li>
+                        <li>
+                            <p>③申請金額と同じ金融機関から申請金額と同額を右の振込先口座に振込を行う</p>
+                        </li>
+                    </ul>
+                    <p>振込の際は、口座名義人の前に3桁の振込IDが自動生成されますので、お振込みの際は入力漏れの無いようご留意下さい。</p>
+                    <p>振込IDの入力を忘れた場合は、カスタマーチャットにてご相談下さい。</p>
+                </div>
+                <div class="example">
+                    <label class="row">
+                        <p>送金元金融機関選択</p>
+                        <select>
+                            <option>登録済みの金融機関を選択して下さい</option>
+                        </select>
+                        <i class="arrow_ic"></i>
+                    </label>
+                    <i class="arrowDown_ic"></i>
+                    <label class="row">
+                        <p>送金元金融機関選択</p>
+                        <select>
+                            <option>＊＊＊＊＊＊銀行 - ＊＊＊＊000</option>
+                        </select>
+                        <i class="arrow_ic"></i>
+                    </label>
+                </div>
+                <div class="commonApply">
+                    <p class="formTitle">入金申請フォーム</p>
+                    <form>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                金融機関名
+                            </p>
+                            <input type="text" placeholder="＊＊＊＊＊＊銀行">
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                支店名
+                            </p>
+                            <input type="password" placeholder="＊＊＊＊">
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                口座番号
+                            </p>
+                            <input type="text" placeholder="0000000">
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                振込名義人（振込ID＋ご氏名）
+                            </p>
+                            <div class="twin">
+                                <input type="text" placeholder="000">
+                                <input type="password" placeholder="＊＊＊＊＊＊＊＊＊＊">
+                                <i class="copy_ic"></i>
+                            </div>
+                            <div class="remindText">
+                                <p>※ 振込の際は必ず振込名義人の項目を「振込ID(3桁)＋お名前」に修正して下さい。</p>
+                                <p>（左の四角のアイコンで振込IDとご氏名をコピー出来ます）</p>
+                                <p>振込IDがご入力されていない場合はシステム自動反映がされず、カスタマーチャットでのご相談にて手動反映となり、ウォレットへの反映にお時間を要する場合がございます。</p>
+                                <p>また、振込人名義はカタカナでご入力くださいますようお願いします。</p>
+                            </div>
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                入金金額
+                            </p>
+                            <input type="text" placeholder="0000000">
+                            <div class="rule"><p>入金可能額</p><span class="colon">：</span>2,000円　～　10,000,000円</div>
+                            <div class="rule"><p>参照為替レート</p><span class="colon">：</span>＊＊＊＊＊＊＊＊</div>
+                            <div class="rule"><p>入金完了予定額</p><span class="colon">：</span><span class="highlight">0000USD</span></div>
+                            <div class="rule"><p>（入金時の為替レートを基準としています）</p></div>
+                        </label>
+                        <button type="submit" class="apply" disabled>入金申請する</button>
+                    </form>
+                </div>
+                <div class="copyArea">
+                    <p class="title">振込先口座</p>
+                    <p class="info">お振込みの際は、以下の振込先情報をご確認の上お<br>手続きを行って下さい。</p>
+                    <p class="info">各項目の右アイコンで各情報をコピー出来ます。</p>
+                    <form action="">
+                        <label for="">
+                            <p>金融機関名</p>
+                            <input type="text" placeholder="PayPay銀行" disabled>
+                            <i class="copy_ic"></i>
+                        </label>
+                        <label for="">
+                            <p>支店名</p>
+                            <input type="password" placeholder="**********" disabled>
+                            <i class="copy_ic"></i>
+                        </label>
+                        <label for="">
+                            <p>預金種目</p>
+                            <input type="text" placeholder="普通" disabled>
+                        </label>
+                        <label for="">
+                            <p>口座番号</p>
+                            <input type="text" placeholder="0000000" disabled>
+                            <i class="copy_ic"></i>
+                        </label>
+                        <label for="">
+                            <p>口座名義人<span>（カタカナ）</span></p>
+                            <input type="text" placeholder="＊＊＊＊＊＊＊＊＊＊" disabled>
+                            <i class="copy_ic"></i>
+                        </label>
+                    </form>
+                </div>
+                <div class="remindBox">
+                    <div class="bg_wood short">
+                        <p>注意事項</p>
+                    </div>
+                   <div class="textArea">
+                   </div>
+               </div>
+            </div>
+            <div class="changeBlock">
+                <div class="textInfo">
+                    <p>ご入金の手順は以下の順序でお願い致します。</p>
+                    <ul>
+                        <li>
+                            <p>①ご入金されるUSDT金額を入力</p>
+                        </li>
+                        <li>
+                            <p>②USDT送金をするボタンをクリック</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="commonApply">
+                    <p class="formTitle">入金申請フォーム</p>
+                    <form>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                チャンネル選択
+                            </p>
+                            <input type="text" placeholder="＊＊＊＊＊＊" disabled>
+                        </label>
+                        <label>
+                            <p class="itemName">
+                                <span>※</span>
+                                入金金額
+                            </p>
+                            <input type="password" placeholder="0000000">
+                            <div class="rule"><p>入金可能額</p><span class="colon">：</span>20USDT　～　∞</div>
+                            <div class="rule"><p>参照為替レート</p><span class="colon">：</span>＊＊＊＊＊＊＊＊</div>
+                            <div class="rule"><p>入金完了予定額</p><span class="colon">：</span><span class="highlight">0000USD</span></div>
+                            <div class="rule"><p>（入金時の為替レートを基準としています）</p></div>
+                        </label>
+                        <button type="submit" class="apply" disabled>入金申請する</button>
+                    </form>
+                </div>
+                <div class="remindBox">
+                    <div class="bg_wood short">
+                        <p>注意事項</p>
+                    </div>
+                   <div class="textArea">
+                   </div>
+               </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li>
+                <a href="./innerIndex.html">
+                    <i class="footer_ic index"></i>
+                    <p>ホーム</p>
+                </a>
+            </li>
+            <li>
+                <a href="./event.html">
+                    <i class="footer_ic event"></i>
+                    <p>プロモーション</p>
+                </a>
+            </li>
+            <li>
+                <a href="./wallet.html">
+                    <i class="footer_ic wallet active"></i>
+                    <p>ウォレット</p>
+                </a>
+            </li>
+            <li>
+                <a href="./cs.html">
+                    <i class="footer_ic service"></i>
+                    <p>カスタマー</p>
+                </a>
+            </li>
+            <li>
+                <a href="./member.html">
+                    <i class="footer_ic member"></i>
+                    <p>マイページ</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--side-->
+    <aside>
+        <button class="chatBtn"></button>
+        <button class="inviteBtn" onclick="window.location.href='./fourGeneration.html'"></button>
+    </aside>
+    <!--filter-->
+    <div class="filter">
+        <!--sideWindow-->
+        <div class="sideWindow">
+            <div class="scrollBox">
+                <!--logo-->
+                <a href="./innerIndex.html" class="logo">
+                    <img src="../images/logo.png" alt="">
+                </a>
+                <!--guideBox-->
+                <div class="guideBox">
+                    <div class="top"></div>
+                    <div class="body">
+                        <div class="loginStyle">
+                            <!--userName-->
+                            <div class="userName">
+                                <p>username</p>
+                                <i class="check_ic"></i>
+                            </div>
+                            <!--userBox-->
+                            <div class="userBox">
+                                <div class="sticker"></div>
+                                <div class="right">
+                                    <div class="titleBox">
+                                        <p>
+                                            <span>VIP RANK</span>
+                                            ELEPHANT
+                                        </p>
+                                        <i class="question_ic"></i>
+                                    </div>
+                                    <div class="walletBox">
+                                        <p>
+                                            <i class="wallet_ic"></i>
+                                            88,888
+                                        </p>
+                                        <i class="reset_ic"></i>
+                                    </div>
+                                    <div class="icBox">
+                                        <a href="./mail.html" class="guide_ic2 message">
+                                            <p>
+                                                <span>5</span>
+                                            </p>
+                                        </a>
+                                        <a href="./mail.html" class="guide_ic2 remind">
+                                            <p>
+                                                <span>3</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--linkBox-->
+                            <div class="linkBox">
+                                <a href="./member.html">
+                                    <i class="member_ic"></i>
+                                    <p>マイページ</p>
+                                </a>
+                                <a href="./deposit.html">
+                                    <i class="moneyBtn deposit"></i>
+                                    <p>入金</p>
+                                </a>
+                                <a href="./transfer.html">
+                                    <i class="moneyBtn transfer"></i>
+                                    <p>振替</p>
+                                </a>
+                                <a href="./withdraw.html">
+                                    <i class="moneyBtn withdrawal"></i>
+                                    <p>出金</p>
+                                </a>
+                            </div>
+                            <!--infoBox-->
+                        </div>
+                        <ul>
+                            <li onclick="window.location.href='./event.html'">
+                                <p>
+                                    <i class="guide_ic event"></i>
+                                    <span>キャンペーン</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li onclick="window.location.href='./vip.html'">
+                                <p>
+                                    <i class="guide_ic vip"></i>
+                                    <span>VIPクラブ</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                            <li onclick="window.location.href='./affiliate.html'">
+                                <p>
+                                    <i class="guide_ic member"></i>
+                                    <span>アフィリエイト</span>
+                                </p>
+                                <i class="arrow_ic"></i>
+                            </li>
+                        </ul>
+                        <button class="logoutBtn" onclick="window.location.href='../index.html'">ログアウト</button>
+                    </div>
+                    <div class="bottom"></div>
+                </div>
+                <!--bonus-->
+                <div class="bonus" onclick="window.location.href='./affiliate.html'"></div>
+            </div>
+        </div>
+        <!--close_ic-->
+        <i class="close_ic"></i>
+    </div>
+    <!--bg-->
+    <div class="bg"></div>
+</body>
+</html>
