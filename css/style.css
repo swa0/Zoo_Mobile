@@ -632,6 +632,11 @@ aside .inviteBtn {
   background-size: 500%;
 }
 
+.sideWindow .guideBox .guide_ic_new {
+  background: url("../images/sideWindow_gu_ide_ic2.png") no-repeat;
+  background-size: 500%;
+}
+
 .sideWindow .guideBox .check_ic {
   background: url("../images/check_ic.png") no-repeat center;
   background-size: contain;
@@ -2608,6 +2613,18 @@ html body .filter .sideWindow .scrollBox .guideBox .body ul li p i {
   width: 7vw;
   height: 7vw;
   margin-right: 2vw;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.hot {
+  background-position-x: 25%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.live {
+  background-position-x: 50%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.slot {
+  background-position-x: 75%;
+}
+html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.sport {
+  background-position-x: 100%;
 }
 html body .filter .sideWindow .scrollBox .guideBox .body ul li p i.event {
   background-position-x: 25%;

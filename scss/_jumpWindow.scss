@@ -280,7 +280,18 @@
                                     width: 7vw;
                                     height: 7vw;
                                     margin-right: 2vw;
-    
+                                    &.hot {
+                                        background-position-x: 25%;
+                                    }
+                                    &.live {
+                                        background-position-x: 50%;
+                                    }
+                                    &.slot {
+                                        background-position-x: 75%;
+                                    }
+                                    &.sport {
+                                        background-position-x: 100%;
+                                    }
                                     &.event {
                                         background-position-x: 25%;
                                     }
